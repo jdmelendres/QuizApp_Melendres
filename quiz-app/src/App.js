@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './App.css';
 
 const quizData = [
-    { question: 'Who painted the Mona Lisa', options: ['San Miguel', 'Da Vinci', 'Leonardo San Miguel', 'Juan Luna'], correctAnswer: 'Da Vinci' },
-    { question: 'What is 3 * 3?', options: ['9', '16', '12', '6'], correctAnswer: '9' },
-    { question: 'Who wrote "Romeo and Juliet"?', options: ['William Shakespeare', 'San Miguel', 'Andrei Jose', 'Jay Mark'], correctAnswer: 'William Shakespeare' }
+    { question: 'Who painted the Mona Lisa', options: ['Roger', 'Da Vinci', 'Leonardo San Miguel', 'Juan Luna'], correctAnswer: 'Da Vinci' },
+    { question: 'What is 3 - 3?', options: ['0', '16', '12', '6'], correctAnswer: '9' },
+    { question: 'Who wrote "Romeo and Juliet"?', options: ['William Shakespeare', 'Roberto', 'Andrei Jose', 'Jay Mark'], correctAnswer: 'William Shakespeare' }
 ];
 
 function App() {
